@@ -22,5 +22,13 @@
     "plugins": [
         "react",
         "@typescript-eslint"
-    ]
+    ],
+    "rules": {
+        "react/jsx-props-no-spreding": "off",
+        "import/prefer-default-export": "off",
+        "react/function-component-definition": ["error", {
+            "namedComponents": "arrow-function",
+            "unnamedComponents": "arrow-function"
+        }]
+    }
 }
