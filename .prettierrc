@@ -6,6 +6,8 @@
   "printWidth": 80,
   "useTabs": false,
   "endOfLine":"auto",
+  "arrowParens": "always",
+  "operatorLinebreak": "before",
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
