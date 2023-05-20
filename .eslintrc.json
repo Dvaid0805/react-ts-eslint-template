@@ -24,10 +24,13 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "implicit-arrow-linebreak": "off",
+        "no-console": "warn",
+        "no-unused-vars": "warn",
         "react/jsx-props-no-spreding": "off",
         "import/prefer-default-export": "off",
-        "no-unused-vars": "off",
+        "operator-linebreak": ["error", "before", { "overrides": { "&&": "after","||": "after" } }],
+        "@typescript-eslint/indent" : "off",
         "@typescript-eslint/no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }]
     }
 }
-
